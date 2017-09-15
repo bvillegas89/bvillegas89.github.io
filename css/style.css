@@ -1,0 +1,264 @@
+/*
+Theme Name: Villegacy
+Description: About Bryan Villegas
+Author: Bryan Villegas
+*/
+ 
+/*--- Default styles Start ---*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0;  border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+body {color:#000000; background:#EFEFEF url('../images/backgrounds/squairy_light.png') repeat; font: 15px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;}
+@font-face {font-family: Hero Light; src: url("../font/Hero Light.otf") format("opentype");}
+@font-face {font-family: Hero; src: url("../font/Hero.otf") format("opentype");}
+::-moz-selection { background: #3A4159; color:#fff;}
+::selection { background: #3A4159; color:#fff;}
+.hidden {visibility:hidden;}
+/*--- Default styles End ---*/
+
+
+/*--- Top navigation Start ---*/
+#topNav {background:#131313 url('../images/backgrounds/stressed_linen.png') repeat; width:100%; border-bottom: 5px solid #BCBCBC; box-shadow: 0 1px 0 #A09F9F; position:fixed; z-index:100;}
+#navWrap {width:1100px; margin:0 auto; display:block;}
+#navWrap a {text-decoration:none;}
+#bv {color:#EFEFEF; float:left; padding: 12px 0px; font: normal 35px "Hero Light", Helvetica, Arial, sans-serif;}
+#bv a {color:#EFEFEF; text-decoration: none;}
+#navWrap a:visited {color:#EFEFEF;}
+#navWrap a:active {color:#EFEFEF;}
+#navWrap a:active {color:#EFEFEF;}
+/*--- Top navigation End ---*/
+ 
+ 
+/*--- Content sections Start ---*/
+#logo {width: 70px; float: left; margin-left: 10px; margin-right:10px;}
+.wrapper {border-bottom:5px solid #BCBCBC;}
+#contactWrapper {border-bottom:none;}
+#mainContent, #serviceContent, #aboutContent, #portfolioContent, #contactContent {font: 19px "Hero Light",Helvetica,Arial,sans-serif; color:#3D3B3B; padding: 100px 25px 75px 25px; min-height:700px; border:1px solid #a09f9f;}
+#mainContent {text-align:center;}
+#mainContent p {text-align:left; margin-top:20px;}
+#serviceContent {background:rgba(196, 196, 196, 0.5);}
+#aboutContent {background:rgba(196, 196, 196, 0.5);}
+#aboutPics {text-align:center; margin-top:50px;}
+#aboutPics img {width:100%;}
+#homeText{margin-top:30px;}
+#homeText2{margin-top:30px;}
+.heading {font: 40px "Hero Light",Arial,sans-serif; color:#3D3B3B; text-align:center;}
+.heading2{margin:10px 0px;font-weight:bold; font-size:16px;}
+.home_heading {font: normal 35px Helvetica, Arial, sans-serif; color:#3D3B3B;}
+#homeHeading1 {text-align:center; font: normal 40px "Hero Light", Arial, sans-serif;}
+.homeHeading2 {text-align:center !important; font: normal 20px "Hero Light", Arial, sans-serif;}
+.homeHeading2 a, .serviceExample a, .servicesList a {color: #DD4F52; font-weight: 600; text-decoration: none;}
+.homeHeading2 a:hover, .serviceExample a:hover, .servicesList a:hover {color: #d65153; text-decoration: underline;}
+#devices {margin:30px 0px;}
+#wrapperServices {text-align:center; margin:50px 0px;}
+.servicesList {margin-right:50px; background: #EDEDED none repeat scroll 0 0; border-radius: 10px; display: inline-table; padding: 10px; box-shadow: 0 0 12px -3px #bfbfbf; text-align:left; width:40%;}
+.servicesList:last-child {margin-right: 0;}
+.servicesList ul {background:#FFF; padding:10px 10px 30px 10px;}
+.servicesList li {list-style-type: circle; margin-left: 30px; font-size:15px;}
+.web_sports {font: normal 22px "Hero Light", Helvetica, Arial, sans-serif !important; list-style: outside none none !important; margin: 10px 0 5px !important;}
+.serviceExample {margin-top:30px;}
+.container{margin:0 auto;width:1000px;}
+#portfolio {margin-top: 30px;}
+.portfolio_li {display:inline-block; margin-bottom:15px; margin-right:35px;}
+.portfolio_li a {background: #d1d1d1; border: 1px solid #dbdbdb; display: block; max-width: 320px; padding:10px; text-decoration:none; color:#333; border-radius:10px; height:270px; width:270px;}
+.portfolio_li a:hover {box-shadow: 0 0 12px -3px #bfbfbf;}
+.portfolio_li a img {max-width: 100%; height:270px; width:270px;}
+.portfolio_li img {border:0;}
+.portDescription {font-size:22px; margin:15px 0px;}
+.port_Heading {text-align:center; margin:10px 0 30px;}
+#portfolio img{filter: grayscale(100%); transition-property: filter; transition-duration: 1s;}
+#portfolio img:hover{filter: grayscale(0);}
+#portPara {margin:25px 0px 5px 0px;}
+/*--- Content sections End ---*/
+
+
+/*--- Footer Start ---*/
+footer {background: #131313 url('../images/backgrounds/stressed_linen.png') repeat; width:100%; padding:15px 0px 20px; border-top: 5px solid #BCBCBC; box-shadow: 0 -1px 0 #A09F9F;}
+#copyright  {color:#fff; font-weight:bold; padding:0px 0px 16px 0px; text-align:center;}
+.social_media_footer {text-align:center; padding:0px; margin:10px 0px;}
+.social_media_footer  ul {display:inline;}
+.social_media_footer a {color:transparent; display:inline-block; padding-left:10px;}
+.social_media_footer .facebook {background:url('../images/facebook_white.png') 0 0 no-repeat; height:29px; width:29px;}
+.social_media_footer .twitter {background:url('../images/twitter_white.png') 0 0 no-repeat; height:29px; width:29px;}
+.social_media_footer .instagram {background:url('../images/instagram_white.png') 0 0 no-repeat; height:29px; width:29px;}
+.social_media_footer .linkedin {background:url('../images/linkedin_white.png') 0 0 no-repeat; height:29px; width:29px;}
+ /*--- Footer End ---*/
+ 
+ 
+/*--- for clearing any floats <br class=&quot;clearfloat&quot;/> Start ---*/
+.clearfloat {clear:both; height:0; font-size: 1px; line-height: 0px;}
+ /*--- for clearing any floats <br class=&quot;clearfloat&quot; /> End ---*/
+ 
+ 
+/*--- Contact Form Start ---*/
+input, textarea {padding: 10px; border: 3px solid #d1d1d1; width: 420px; color: #999999;}
+textarea {width: 570px; height: 150px; line-height: 18px;}
+input:hover, textarea:hover, input:focus, textarea:focus {border: 3px solid #dddddd; box-shadow: rgba(153, 153, 153, 0.2) 0px 0px 3px;}
+input:focus {box-shadow:none;}
+.form {margin-top:20px; text-align:center;}
+.form label {margin-left: 10px; color: #3d3b3b; display:inline-block; width:135px; text-align:left;}
+.form p {margin-bottom: 20px;}
+/*--- Contact Form End ---*/
+
+
+/*--- Submit Button Start ---*/
+.submit button {width: 100px; height: 40px; background-color: #474E69; color: #FFF; border-radius: 3px; border:none; margin-right:10px;}
+.submit button:hover {background-color: #3A4159; color: #FFF;border:none;}
+.submit button:active {box-shadow: 0 0 3px #adadad;}
+.g-recaptcha > div {margin: 0 auto 20px;}
+#iframe_wrapper {width:100%; height:50px;}
+/*--- Submit Button End ---*/
+
+
+/*--- Hamburger CSS Start ---*/
+#mobileHeader {position: fixed; width: 100%; z-index: 1000; height:0px}
+#mobileHeader div {width:1100px; margin:0 auto; display:block;}
+.hamburger{background:none; position:relative; top:8px; float:right; line-height:45px; padding:0px 15px 0px 15px; color:#fff; border:0; font-size:2.2em; font-weight:bold; cursor:pointer; outline:none; z-index:10000000000000;}
+.cross{display:none; background:none; position:relative; top:8px; float:right; padding:0px 15px 0px 15px; color:#fff; border:0; font-size:54px; line-height:65px; font-weight:bold; cursor:pointer; outline:none; z-index:10000000000000;}
+.menu {display:none;}
+.menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#131313;  position:fixed; text-align:center; top:64px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block; padding:0px; border-bottom:#1d1f20 1px solid;}
+.menu li:hover{display: block; background:#181818; border-bottom:#1d1f20 1px solid;}
+.menu ul li a { text-decoration:none; margin: 0px; color:#fff;}
+.menu ul li a:hover {color: #fff; text-decoration:none;}
+.menu ul li a h6 {padding:15px 0 15px 0;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:white;}
+.glyphicon-home{color:white; font-size:1.5em; margin-top:5px; margin:0 auto;}
+/* --- Hamburger CSS End --- */
+
+
+/* --- Back to Top Start --- */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(58, 65, 89);
+    background: rgba(58, 65, 89, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top span {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+	cursor:pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(81, 89, 114, 0.9);
+	cursor:pointer;	
+}
+#return-to-top:hover span {
+    color: #fff;
+    top: 8px;
+}
+/* --- Back to Top End --- */
+
+
+/*--- Media Queries Start ---*/
+@media only screen and (min-width:971px){
+	.menu {top:69px;}
+}
+
+@media only screen and (max-width:1100px){
+	#mobileHeader div {width:auto;}
+	.container {width:100%;}
+}
+
+@media only screen and (max-width:1000px){
+	#navWrap {width:100%;}
+	#bv {margin-left:10px;}
+	.container {width:100%;}
+}
+
+@media only screen and (max-width:970px){
+	.container {width:100%;}
+	#devices {height: auto; width: 96%;}
+	nav {display:none;}
+	#portfolio {text-align:center;}
+	#homeText1 {float: none; width: 100%;}
+	#homeText2 {float: none; margin-top: 20px; width: 100%;}
+	#mobileHeader section {width:100%;}
+}
+
+@media only screen and (max-width:970px) and (min-width:647px){
+	.servicesList {height:250px; padding:10px;}
+	.servicesList ul {height:230px; padding:10px;}
+}
+
+@media only screen and (max-width:646px){
+	.form label {display:none;}
+	textarea {width:420px;}
+}
+
+@media only screen and (max-width:646px){
+	.servicesList {width:80%; margin-right:0px; margin-bottom:50px;}
+	.servicesList:last-child {margin-bottom: 0;}
+}
+
+@media only screen and (max-width:569px){
+	.form label {display:none;}
+	#web, #email, #name {margin:0px;}
+	.form input, .form textarea {width:90%}
+	textarea {max-width:90%; min-width:90%;}
+	.submit, .clear {width:165px; margin:0 auto;}
+	.clear {margin-top:20px;}
+	#bv {font-size:25px; padding-top: 18px;}
+	#logo {width:50px;}
+}
+
+@media only screen and (max-width:767px) and (min-width:480px){
+	.container {width:100%;}
+	#devices {height: auto; width: 100%;}
+	.portfolio_li {margin-right:10px;}
+}
+
+@media only screen and (max-width:479px) and (min-width:321px){
+	.container {width:100%;}
+	#bv { margin-left: 0; padding-top: 14px; padding-bottom: 11px; text-align: left; width: 100%;}
+	#devices {height: auto; width: 100%;}
+	.portfolio_li {margin-right:0px;}
+	#logo{float:none;position: relative; top: 5px;}
+}
+
+@media only screen and (max-width:337px){
+	.g-recaptcha {left: -12px; position: relative;}
+}
+
+@media only screen and (max-width:320px){
+	.container {width:100%;}
+	#bv { margin-left: 0; padding-top: 14px; padding-bottom: 11px; text-align: left; width: 100%;}
+	#devices {height: auto; width: 100%;}
+	.portfolio_li {width:100%}
+	#logo{float:none;position: relative; top: 5px;}
+}
+/*--- Media Queries End ---*/
